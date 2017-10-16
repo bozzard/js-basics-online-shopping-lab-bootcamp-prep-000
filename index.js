@@ -83,6 +83,7 @@ function removeFromCart(item) {
     else {
 //      var counter = 1 ;
     var cart1 = cart.slice(i);
+    
     return cart1;
     }
     }
@@ -107,6 +108,6 @@ addToCart("cake");
 addToCart("pie");
 viewCart();
 //total()
-removeFromCart('cake');
+removeFromCart('cream');
 viewCart();
 /*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
