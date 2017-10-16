@@ -82,7 +82,8 @@ function removeFromCart(item) {
     }
     else {
 //      var counter = 1 ;
-    cart.shift(i);
+    cart = cart.slice(i);
+    return cart;
     }
     }
     if (counter === 1) {
@@ -91,7 +92,7 @@ function removeFromCart(item) {
     else {
 //      console.log('That item is in your cart');
     }
-return cart;
+
 }
 
 function placeOrder(cardNumber) {
