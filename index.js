@@ -71,21 +71,21 @@ function removeFromCart(item) {
     var counter = 0 ;
     var itemInCart = new Object();
     for ( let i = 0; i < cart.length; i++) {
-    itemInCart = cart[i];
-    var exist = itemInCart.hasOwnProperty(item);
-    console.log("cart[i] = ", cart[i]);
-    console.log("var item = ", item);
-    console.log("var exist = ", exist);
-    console.log("var itemInCart = ", itemInCart);
-    if (exist === false) {
-      counter = 1 ;
-    }
-    else {
-      counter = 0;
-/*    var cart1 = cart.slice(i);
-    return cart1; */
-    }
-    }
+          itemInCart = cart[i];
+          var exist = itemInCart.hasOwnProperty(item);
+          console.log("cart[i] = ", cart[i]);
+          console.log("var item = ", item);
+          console.log("var exist = ", exist);
+          console.log("var itemInCart = ", itemInCart);
+          if (exist === false) {
+            counter = 1 ;
+          }
+          else {
+            counter = 0;
+      /*    var cart1 = cart.slice(i);
+          return cart1; */
+          }
+          }
     console.log('counter =', counter );
     if (counter === 1) {
       console.log('That item is not in your cart');
