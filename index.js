@@ -96,14 +96,14 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-viewCart();
+//viewCart();
 addToCart("apple");
-viewCart();
+//viewCart();
 addToCart("cake");
-viewCart();
+//viewCart();
 addToCart("pie");
 viewCart();
-total()
-removeFromCart("apple");
+//total()
+removeFromCart("pie");
 viewCart();
 /*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
