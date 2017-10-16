@@ -83,7 +83,7 @@ function removeFromCart(item) {
   cart.shift(i);
     }
   }
-    if (couter === 1) {
+    if (counter === 1) {
       console.log('That item is not in your cart');
     }
     else {
