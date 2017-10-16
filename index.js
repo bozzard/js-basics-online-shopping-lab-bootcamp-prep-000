@@ -115,7 +115,9 @@ function placeOrder(cardNumber) {
 //viewCart();
 addToCart("apple");
 //viewCart();
-addToCart("cake");
+addToCart("cake2");
+addToCart("cake3");
+addToCart("cake4");
 //viewCart();
 addToCart("pie");
 viewCart();
