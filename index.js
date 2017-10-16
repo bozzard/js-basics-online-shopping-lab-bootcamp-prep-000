@@ -110,4 +110,6 @@ viewCart();
 //total()
 removeFromCart('cream');
 viewCart();
+removeFromCart('cake');
+viewCart();
 /*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
