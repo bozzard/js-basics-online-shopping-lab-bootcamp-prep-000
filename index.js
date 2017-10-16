@@ -74,9 +74,10 @@ function removeFromCart(item) {
           itemInCart = cart[i];
           var exist = itemInCart.hasOwnProperty(item);
           console.log("cart[i] = ", cart[i]);
+          console.log("var itemInCart = ", itemInCart);
           console.log("var item = ", item);
           console.log("var exist = ", exist);
-          console.log("var itemInCart = ", itemInCart);
+          
           if (exist === false) {
           let counter = 1 ;
           }
