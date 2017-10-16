@@ -123,6 +123,6 @@ viewCart();
 removeFromCart('cream');
 viewCart();
 console.log ('###########');
-removeFromCart('cake');
+removeFromCart('pie');
 viewCart();
 /*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
