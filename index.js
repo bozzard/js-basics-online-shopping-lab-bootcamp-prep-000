@@ -81,7 +81,7 @@ function removeFromCart(item) {
             counter = 1 ;
           }
           else {
-            
+
       /*    var cart1 = cart.slice(i);
           return cart1; */
           }
