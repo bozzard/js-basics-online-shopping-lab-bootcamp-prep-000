@@ -85,6 +85,7 @@ function removeFromCart(item) {
 //           cart.shift(2);
            console.log('cart =', cart );
            var icart = [...cart.slice(0, i-1), ...cart.slice(i)];
+           console.log('icart =', icart );
            return (icart);
           }
           else {
