@@ -80,8 +80,8 @@ function removeFromCart(item) {
           console.log();
           if (exist === true) {
            counter = 1 ;
-           console.log('1.counter =', counter );
-           console.log('ITEM exist =', exist );
+//           console.log('1.counter =', counter );
+//           console.log('ITEM exist =', exist );
            cart.shift(2);
            console.log('Icart =', cart );
            return (cart);
