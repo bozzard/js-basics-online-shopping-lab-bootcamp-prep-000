@@ -68,7 +68,6 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  //  viewCart();
     var counter = 0 ;
     for ( let i = 0; i < cart.length; i++) {
     var itemInCart = cart[i];
