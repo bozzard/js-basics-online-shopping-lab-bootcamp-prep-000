@@ -89,7 +89,7 @@ function removeFromCart(item) {
     }
     console.log('counter =', counter );
     if (counter === 1) {
-      return('That item is not in your cart');
+      console.log('That item is not in your cart');
     }
     else {
 //      console.log('That item is in your cart');
