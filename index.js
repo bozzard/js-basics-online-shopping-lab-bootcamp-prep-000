@@ -88,11 +88,7 @@ function removeFromCart(item) {
            return (icart);
           }
           else {
-
-      /*    var cart1 = cart.slice(i);
-          return cart1; */
           }
-
           }
           console.log('That item is not in your cart.');
           return cart;
