@@ -69,7 +69,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
     var counter = 0 ;
-    var itemInCart = '';
+    var itemInCart = new Object();
     for ( let i = 0; i < cart.length; i++) {
     itemInCart = cart[i];
     var exist = itemInCart.hasOwnProperty(item);
