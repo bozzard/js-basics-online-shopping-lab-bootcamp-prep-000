@@ -112,4 +112,5 @@ viewCart();
 console.log ('###########');
 removeFromCart('cake3');
 viewCart();
+placeOrder();
 /*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
