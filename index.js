@@ -125,6 +125,6 @@ viewCart();
 removeFromCart('cream');
 viewCart();
 console.log ('###########');
-removeFromCart('pie');
+removeFromCart('cake3');
 viewCart();
 /*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
