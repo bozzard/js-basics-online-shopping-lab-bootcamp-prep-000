@@ -90,3 +90,4 @@ addToCart("pie");
 viewCart();
 total()
 removeFromCart("apple");
+viewCart();
