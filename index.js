@@ -69,6 +69,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   //  viewCart();
+    var counter = 0 ;
     for ( let i = 0; i < cart.length; i++) {
     var itemInCart = cart[i];
     var exist = itemInCart.hasOwnProperty(item);
@@ -76,13 +77,13 @@ function removeFromCart(item) {
     console.log("var item = ", item);
     console.log("var exist = ", exist); */
     if (exist === false) {
-      var counter = 1 ;
+      counter = 1 ;
     }
     else {
 //      var counter = 1 ;
-  cart.shift(i);
+    cart.shift(i);
     }
-  }
+    }
     if (counter === 1) {
       console.log('That item is not in your cart');
     }
