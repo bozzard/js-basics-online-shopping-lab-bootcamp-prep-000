@@ -69,6 +69,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
     var exist = cart.hasOwnProperty(item);
+    console.log("var exist = ", exist);
     if (exist === false) {
       console.log('That item is not in your cart');
     }
