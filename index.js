@@ -79,9 +79,6 @@ function removeFromCart(item) {
           console.log("var exist = ", exist);
           console.log();
           if (exist === true) {
-           counter = 1 ;
-//           console.log('1.counter =', counter );
-//           console.log('ITEM exist =', exist );
            console.log('cart =', cart );
            cart = [...cart.slice(0, i), ...cart.slice(i+1)];
            return (cart);
