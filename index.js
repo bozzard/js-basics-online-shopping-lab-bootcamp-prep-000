@@ -80,6 +80,7 @@ function removeFromCart(item) {
           console.log();
           if (exist === false) {
            counter = 1 ;
+           console.log('counter =', counter );
           }
           else {
       /*    var cart1 = cart.slice(i);
