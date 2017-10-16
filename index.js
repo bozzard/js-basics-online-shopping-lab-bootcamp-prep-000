@@ -84,7 +84,7 @@ function removeFromCart(item) {
            return ("exist ");
           }
           else {
-            
+
       /*    var cart1 = cart.slice(i);
           return cart1; */
           }
