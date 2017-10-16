@@ -82,7 +82,6 @@ function removeFromCart(item) {
            counter = 1 ;
 //           console.log('1.counter =', counter );
 //           console.log('ITEM exist =', exist );
-           cart.shift(2);
            console.log('cart =', cart );
            var icart = [...cart.slice(0, i), ...cart.slice(i+1)];
            console.log('icart =', icart );
