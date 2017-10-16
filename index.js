@@ -78,7 +78,7 @@ function removeFromCart(item) {
           console.log("var item = ", item);
           console.log("var exist = ", exist);
           console.log();
-          if (exist === false) {
+          if (exist === true) {
            counter = 1 ;
            console.log('1.counter =', counter );
           }
@@ -88,14 +88,14 @@ function removeFromCart(item) {
           return cart1; */
           }
           }
-    console.log('counter =', counter );
+  /*  console.log('counter =', counter );
     if (counter === 0) {
       console.log('That item is not in your cart');
       return cart;
     }
     else {
       console.log('That item is in your cart');
-    }
+    } */
 
 }
 
