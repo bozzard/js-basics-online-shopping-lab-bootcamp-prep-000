@@ -89,3 +89,4 @@ viewCart();
 addToCart("pie");
 viewCart();
 total()
+removeFromCart("apple");
