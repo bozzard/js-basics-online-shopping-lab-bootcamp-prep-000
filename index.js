@@ -75,14 +75,20 @@ function removeFromCart(item) {
     console.log("cart[i] = ", cart[i]);
     console.log("var item = ", item);
     console.log("var exist = ", exist);
-
     if (exist === false) {
+      var counter = 0 ;
+    }
+    else {
+//      var counter = 1 ;
+    }
+  }
+    if (couter === 0) {
       console.log('That item is not in your cart');
     }
     else {
       console.log('That item is in your cart');
     }
-  }
+  
 }
 
 function placeOrder(cardNumber) {
