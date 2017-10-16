@@ -81,6 +81,7 @@ function removeFromCart(item) {
           if (exist === true) {
            counter = 1 ;
            console.log('1.counter =', counter );
+           console.log('exist =', exist );
            return ("exist ");
           }
           else {
