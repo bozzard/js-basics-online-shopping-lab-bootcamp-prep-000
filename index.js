@@ -77,7 +77,7 @@ function removeFromCart(item) {
           console.log("var itemInCart = ", itemInCart);
           console.log("var item = ", item);
           console.log("var exist = ", exist);
-console.log();
+          console.log();
           if (exist === false) {
           let counter = 1 ;
           }
