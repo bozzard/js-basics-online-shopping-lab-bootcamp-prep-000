@@ -68,6 +68,13 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+    var exist = cart.hasOwnProperty(item);
+    if (exist === false) {
+      console.log('That item is not in your cart');
+    }
+    else {
+      console.log('That item is in your cart');
+    }
 }
 
 function placeOrder(cardNumber) {
