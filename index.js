@@ -89,7 +89,7 @@ function removeFromCart(item) {
       /*    var cart1 = cart.slice(i);
           return cart1; */
           }
-          
+
           }
           console.log('That item is not in your cart');
           return cart;
