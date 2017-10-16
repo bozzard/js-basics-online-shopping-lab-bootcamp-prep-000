@@ -102,20 +102,4 @@ function placeOrder(cardNumber) {
     }
   }
 
-//viewCart();
-addToCart("apple");
-//viewCart();
-addToCart("cake2");
-addToCart("cake3");
-addToCart("cake4");
-//viewCart();
-addToCart("pie");
-viewCart();
-//total()
-removeFromCart('cream');
-viewCart();
-console.log ('###########');
-removeFromCart('cake3');
-viewCart();
-placeOrder();
-/*console.log("cart.hasOwnProperty(apple) = ", cart.hasOwnProperty("apple"));*/
+
