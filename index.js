@@ -81,13 +81,15 @@ function removeFromCart(item) {
           if (exist === true) {
            counter = 1 ;
            console.log('1.counter =', counter );
+           return ("exist ");
           }
           else {
-            console.log('That item is not in your cart');
-            return cart;
+            
       /*    var cart1 = cart.slice(i);
           return cart1; */
           }
+          console.log('That item is not in your cart');
+          return cart;
           }
   /*  console.log('counter =', counter );
     if (counter === 0) {
