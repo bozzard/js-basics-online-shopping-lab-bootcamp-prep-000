@@ -83,7 +83,7 @@ function removeFromCart(item) {
     else {
 //      var counter = 1 ;
     var cart1 = cart.slice(i);
-    return cart;
+    return cart1;
     }
     }
     if (counter === 1) {
