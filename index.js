@@ -79,7 +79,7 @@ function removeFromCart(item) {
           console.log("var exist = ", exist);
           console.log();
           if (exist === false) {
-          let counter = 1 ;
+          counter = 1 ;
           }
           else {
 
