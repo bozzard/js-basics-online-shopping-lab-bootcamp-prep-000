@@ -94,13 +94,13 @@ function placeOrder(cardNumber) {
   if ( cardNumber === undefined) {
     console.log("Sorry, we don't have a credit card on file for you.")
     return;
+  }
     else {
       var price = total();
       console.log(`Your total cost is $${price}, which will be charged to the card ${cardNumber}.`)
       return;
     }
   }
-}
 
 //viewCart();
 addToCart("apple");
