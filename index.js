@@ -110,7 +110,7 @@ addToCart("cake");
 addToCart("pie");
 viewCart();
 //total()
-removeFromCart('cream');
+removeFromCart('pie');
 viewCart();
 removeFromCart('cake');
 viewCart();
